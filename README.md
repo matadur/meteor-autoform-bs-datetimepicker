@@ -1,7 +1,13 @@
-aldeed:autoform-bs-datetimepicker
+matadur:autoform-bs-datetimepicker
 =========================
 
-IMPORTANT: This repo is no longer maintained (but may still work for you). You can find forks and other alternatives that work better on [Atmosphere](https://atmospherejs.com/?q=autoform).
+*Forked from* `aldeed:autoform-bs-datetimepicker`
+
+**Changelog**
+* v. 1.08
+Removed dependencies on Meteor packages of moment & moment-timezone, in favor of node packages
+
+---
 
 An add-on Meteor package for [aldeed:autoform](https://github.com/aldeed/meteor-autoform). Provides a single custom input type, "bootstrap-datetimepicker", which renders an input using the [bootstrap-datetimepicker](http://eonasdan.github.io/bootstrap-datetimepicker/) plugin.
 
